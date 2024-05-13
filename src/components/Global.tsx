@@ -32,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-top: 10px;
     display:flex;
     align-items:center;
-    margin-bottom:50px;
+    /* margin-bottom:50px; */
 }  
 
 .icon{
