@@ -58,7 +58,7 @@ function App() {
           <Search />
           {zoneList()}
         </div>
-        {/* <Footer /> */}s
+        {/* <Footer /> */}
       </DragSelectProvider>
     </ThemeProvider>
   );
