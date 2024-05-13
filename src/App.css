@@ -45,12 +45,16 @@ p.sub {
   font-size: 12pt;
 }
 
+/* Класс для общего контейнера, поменяла здесь ширину*/
 div.wrapper {
   padding: 20px 20px 20px 20px;
-  width: 800px;
+  width: 100vw;
+  min-width: 340px;
+  max-width: 800px;
   margin: 150px auto;
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap; */
+  flex-direction: column;
 }
 
 div.timezoneList {
@@ -244,10 +248,11 @@ ul.suggestionList .listCountry {
   cursor: pointer;
 }
 
+/* Это класс для крестиков для удаления часового пояса */
 .remove {
   /* margin-top: px; */
-  position: absolute;
-  margin-left: 1645px;
+  /* position: absolute;
+  margin-left: 1645px; */
 }
 
 div.hoursList,
