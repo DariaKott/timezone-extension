@@ -60,6 +60,7 @@ div.wrapper {
 div.timezoneList {
   /* width: 220px; */ /*Убрала принудительную ширину*/
   border-radius: 10px 0 0 10px;
+
 }
 
 div.home {
@@ -132,13 +133,15 @@ input[type="submit"] {
   font-size: 10pt;
 }
 
+/* Это класс-контейнер для блока с названием часового пояса */
 div.timezoneComp {
-  padding-left: 20px;
+  /* padding-left: 1rem; */
   font-size: 8.5pt;
   width: 100%;
   display: flex;
-  margin-bottom: 18px;
-  /* align-items: center; */
+  justify-content: space-between;
+  /*margin-bottom: 18px; 
+  align-items: center; */ /*Убрала ненужный margin, добавила justify-content*/
 }
 
 div.hoursList {
@@ -259,6 +262,8 @@ div.hoursList,
 div.timezoneList {
   height: 90px;
   padding-top: 25px;
+  padding-right: 1rem;
+  padding-left: 1rem; /* Добавила padding*/
 }
 
 footer {
