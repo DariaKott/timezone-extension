@@ -58,7 +58,7 @@ div.wrapper {
 }
 
 div.timezoneList {
-  width: 220px;
+  /* width: 220px; */ /*Убрала принудительную ширину*/
   border-radius: 10px 0 0 10px;
 }
 
@@ -142,7 +142,7 @@ div.timezoneComp {
 }
 
 div.hoursList {
-  width: 540px;
+  /* width: 540px; */ /*Убрала принудительную ширину*/
   border-radius: 0 10px 10px 0;
 }
 
