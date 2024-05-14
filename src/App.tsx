@@ -48,7 +48,7 @@ function App() {
         <div className="wrapper">
           <div className="header">
             <div className="title">
-              <h1>Time Zone Meeting Planner</h1>
+              <h1>Time Zone Meeting Planner!!</h1>
               <p className="sub">Search to add cities & Drag time to convert</p>
             </div>
             <div className="toggle">
